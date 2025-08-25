@@ -13,11 +13,13 @@ export const Projects = () => {
       title: "SCORIX",
       description: " Your grades, generated and delivered at lightning speed. From crunching marks to dropping PDFs in inboxes, Scorix makes the whole process automated, effortless and error-free.",
       imgUrl: projImg1,
+      link: "https://github.com/anshiityagi/SCORIX",   // 🔗 Added link here
     },
     {
       title: "Porfolio",
       description: "A sleek, interactive webapp that’s basically me in website form. Built to showcase my skills, projects, and personality, it blends clean design with smooth animations so scrolling feels like a conversation, not a résumé.",
       imgUrl: projImg2,
+      link: "https://personal-portfolio-wheat-omega.vercel.app/#home",   // 🔗 Added link here
     },
   ];
 
