@@ -47,31 +47,39 @@ export const Banner = () => {
             <Container>
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
-                    <TrackVisibility>
-                    {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                        <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>
-                            <span className="wrap">{text}</span>
-                        </h1>
-                        <p>
-                            This person’s a computer science undergrad who treats code like a creative playground, 
-                            powered by caffeine and a sprinkle of chaos. Loves tackling DSA with C++, 
-                            automates the boring stuff with Python, and floats through cloud computing like it’s no big deal. 
-                            Builds stuff that works and feels right. Learns fast, leads naturally, and is always down to break and rebuild for the fun of it.
-                        </p>
-                        <button onClick={() => console.log('connect')}>
-                            Lets's connect <ArrowRightCircle size={25} />
-                        </button>
-                    </div>}
-                    </TrackVisibility>
-                    </Col>
-                        <Col xs={12} md={6} xl={5}>
                         <TrackVisibility>
-                        {({ isVisible }) =>
-                        <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
-                            <img src={headerImg} alt="Header Img" />
-                        </div>}
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                    <span className="tagline">Welcome to my Portfolio</span>
+                                    <h1>
+                                        <span className="wrap">{text}</span>
+                                    </h1>
+                                    <p>
+                                        This person’s a computer science undergrad who treats code like a creative playground, 
+                                        powered by caffeine and a sprinkle of chaos. Loves tackling DSA with C++, 
+                                        automates the boring stuff with Python, and floats through cloud computing like it’s no big deal. 
+                                        Builds stuff that works and feels right. Learns fast, leads naturally, and is always down to break and rebuild for the fun of it.
+                                    </p>
+                                    {/* ✅ Button updated to match Contact.js id */}
+                                    <button 
+                                        onClick={() => {
+                                            const contactSection = document.getElementById("connect");
+                                            if (contactSection) {
+                                                contactSection.scrollIntoView({ behavior: "smooth" });
+                                            }
+                                        }}
+                                    >
+                                        Let's connect <ArrowRightCircle size={25} />
+                                    </button>
+                                </div>}
+                        </TrackVisibility>
+                    </Col>
+                    <Col xs={12} md={6} xl={5}>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
+                                    <img src={headerImg} alt="Header Img" />
+                                </div>}
                         </TrackVisibility>
                     </Col>
                 </Row>

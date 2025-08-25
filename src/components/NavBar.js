@@ -50,7 +50,7 @@ export const NavBar = () => {
                         <a href='https://github.com/anshiityagi'><img src={navIcon2} alt="" /></a>
                         <a href='mailto:yourgmail@gmail.com' target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
                     </div>
-                    <a href='https://drive.google.com/file/d/1xMrhkDXL83n3OJuLtoNgQNha9CA-FI71/view?usp=sharing' download>
+                    <a href='https://drive.google.com/file/d/1MVIn0pe35HHedSdcFxempsLzEKyO-xrQ/view?usp=sharing' download>
                     <button className="vvd">
                         <span>Download Resume</span>
                     </button>
