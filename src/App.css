@@ -81,6 +81,9 @@ p.success {
 p.danger {
 	color: red;
 }
+
+
+
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -229,6 +232,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border-color: transparent;
 }
+
+
+/**NEW NAVBAR**/
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.7); }
+  to { transform: scale(1); }
+}
+
 
 /************ Banner Css ************/
 .banner {
