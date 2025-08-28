@@ -98,7 +98,7 @@ export const NavBar = () => {
                 </a>
               </div>
               <a
-                href="https://drive.google.com/file/d/1MVIn0pe35HHedSdcFxempsLzEKyO-xrQ/view?usp=sharing"
+                href="https://drive.google.com/file/d/1bntjptq0Mcl4nfNkiwVYFSB6ubXabvlW/view?usp=sharing"
                 download
               >
                 <button className="vvd">
