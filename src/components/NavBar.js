@@ -132,7 +132,7 @@ export const NavBar = () => {
             src={myPhoto}
             alt="My Profile Large"
             style={{
-              maxWidth: "50%",
+              maxWidth: "40%",
               maxHeight: "80%",
               borderRadius: "50%",
               transition: "transform 0.3s ease",
